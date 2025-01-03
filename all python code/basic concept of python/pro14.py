@@ -1,0 +1,22 @@
+#implicit type coversion
+a=5
+b=2
+value=(a/b)
+print(value)
+print(type(value))
+x=4
+y=5.5
+z=x+y
+print(z)
+print(type(z))
+#concatination
+p='hello'
+q='junaid'
+r=p+q
+print(r)
+print(type(r))
+#*******
+m=10
+n='10'
+o=m+n
+print(o)

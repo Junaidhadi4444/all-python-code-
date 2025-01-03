@@ -1,0 +1,6 @@
+
+#.....Nested dict in python....
+#....delete elment...
+a={'course':'python','fees':14000,1:{'course':'javascript','fees':20000}}
+del a[1]['course']
+print(a)

@@ -1,0 +1,6 @@
+#.....Nested dict in python....
+#....modifying nested dict...
+a={'course':'python','fees':14000,1:{'course':'javascript','fees':20000}}
+a['course']='machine learning'
+a[1]['fees']=30000
+print(a)
